@@ -6,7 +6,7 @@
 	<artifactId>SportyShoes</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SportyShoes Maven Webapp</name>
+	<name>Section7LEP Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	
 	<!-- JBoss repository for Hibernate -->
@@ -203,7 +203,7 @@
 	
 	
 		<build>
-			<finalName>SportyShoes</finalName>
+			<finalName>Section7LEP2</finalName>
 			<sourceDirectory>src/main</sourceDirectory>
 			<resources>
 				<resource>
