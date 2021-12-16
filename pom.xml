@@ -6,7 +6,7 @@
 	<artifactId>SportyShoes</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Section7LEP Maven Webapp</name>
+	<name>SportyShoes Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	
 	<!-- JBoss repository for Hibernate -->
@@ -86,17 +86,19 @@
 			<version>${org.springframework.version}</version>
 		</dependency>
 		
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
-			<version>${org.springframework.version}</version>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-webmvc</artifactId>
+		    <!-- <version>${org.springframework.version}</version> -->
+		    <version>5.3.13</version>
 		</dependency>
 		
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
 			<version>5.1.6.RELEASE</version>
-			<scope>test</scope>
+			<!-- <scope>test</scope> -->
 		</dependency>
 		
 		<!-- Spring Security -->
@@ -112,11 +114,13 @@
 			<version>${spring.security.version}</version>
 		</dependency>
 		
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
 		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>1.2.16</version>
+		    <groupId>org.apache.logging.log4j</groupId>
+		    <artifactId>log4j-core</artifactId>
+		    <version>2.13.3</version>
 		</dependency>
+
 		
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -148,7 +152,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.9</version>
+			<version>8.0.20</version>
 		</dependency>
 		
 		<dependency>
@@ -193,7 +197,7 @@
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-core</artifactId>
 			<version>2.21.0</version>
-			<scope>test</scope>
+			<!-- <scope>test</scope> -->
 		</dependency>
 	
 	
@@ -203,7 +207,7 @@
 	
 	
 		<build>
-			<finalName>Section7LEP2</finalName>
+			<finalName>SportyShoes</finalName>
 			<sourceDirectory>src/main</sourceDirectory>
 			<resources>
 				<resource>
